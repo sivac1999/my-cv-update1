@@ -1,0 +1,221 @@
+/* Default styles (for larger screens) will already be in the main style file */
+
+/* Small devices (up to 600px wide) */
+@media (max-width: 600px) {
+    .home-section{
+        background-color: black;
+    }
+    .home-row {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-img,
+    .home-heading {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .button {
+        width: 80%;
+    }
+
+    .home-div {
+        position: relative;
+        width: auto;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .home-icon- {
+        margin: 10px 10px;
+    }
+    .home-div-col{
+        padding-top: 136px;
+        position: fixed;
+        padding-left: 286px;
+        z-index: 1;
+        
+    }
+    .toggle-btn-div{
+        position: fixed;
+        right: 18%;
+        top: 15px;
+        border: 1px solid;
+        background-color: var(--main-bg-color);
+        padding: 12px;
+        border-radius: 50%;
+        z-index: 1;
+    
+    }
+    .home-spanning-icon-div{
+        left: 36px;
+    }
+    .home-row::before{
+        height: 160%;
+    }
+    .powebtn{
+        padding-left: 60px;
+    }
+    .sowwybtn{
+        padding-left: 40px;
+    }
+    .facbtn{
+        padding-left: 50px;
+    }
+    .thangamailbtn{
+        padding-left: 40px;
+    }
+    .home-div-col{
+        z-index: 3;
+    }
+    /*--------------------------about section-------------------------------------------------------------------------------------*/
+.about-row-flex{
+ display: flex;
+ flex-wrap: wrap;
+  }
+.about-row-left-colm{
+ width: 100%;
+ display: flex;
+flex-wrap: wrap;
+}
+.about-right-cols{
+    width: 100%;
+}
+.about-left-details{
+    width: 100%;
+}
+.home-row::before{
+    height: 120%;
+}
+.my-sillks-cricle-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-skills-col{
+    width: 100%;
+   
+    
+}
+.my-skill-row{
+    padding-left: 43px;
+    
+}
+.my-skill-row h2{
+    padding-right: 24px;
+}
+.my-skill-css-div1{
+    top: 60%;
+    left: 23%;
+}
+.my-skill-css-div2{
+    top: 69%;
+    left: 22%;
+}
+.my-skill-css-div3{
+    top: 77%;
+    left: 6%;
+
+}
+.my-skill-css-div4{
+    top: 87%;
+    left: 7%;
+
+}
+.btn1{
+    display: none;
+}
+/*==============================================================PORTFOLIO===================================================*/
+.portfolio-row{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-col{
+    width: 100%;
+    margin: 15px 0px;
+
+}
+/*------------------------------------------------------------contact------------------------------------------*/
+.contact-section-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.conatct-left-col{
+    width: 100%;
+    padding-left: 36px;
+
+  }
+  .conatct-right-col{
+    width: 100%;
+    padding: 20px 0px 0px 13px;
+  }
+}
+
+/* Medium devices (600px to 900px wide) */
+@media (min-width: 601px) and (max-width: 900px) {
+    .home-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-img,
+    .home-heading {
+        width: 80%;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .button {
+        width: 50%;
+    }
+
+    .home-div {
+        position: relative;
+        width: auto;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .home-icon- {
+        margin: 10px 10px;
+    }
+    .home-div-col{
+        padding-top: 100px;
+        position: fixed;
+    }
+        /*--------------------------about section-------------------------------------------------------------------------------------*/
+        .about-row-left-colm{
+            width: 45%;
+        }
+        .my-skills-col{
+            width: 20%;
+           
+            
+        }
+        .my-skill-css-div1{
+            left: 11%;
+            top: 74%;
+        }
+       
+       /*=========================================PORTFOLIO=======================================SECTION*/
+    .portfolio-row{
+    width: 100%;
+    display: flex;
+}
+.portfolio-col{
+    width: 20%;
+    
+}
+/*----------------------------------------conatct==================================================*/
+
+
+ 
+  
+}
+
+
+
